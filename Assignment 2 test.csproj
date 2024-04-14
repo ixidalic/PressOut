@@ -50,6 +50,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="README.md" />
+    <Content Include="bin\Debug\inventory.txt" />
+    <Content Include="bin\Debug\bikemake.txt" />
+    <Content Include="bin\Debug\Assignment 2 test.exe.config" />
+    <Content Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Content Include="obj\Debug\Assignment 2 test.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\Assignment 2 test.csproj.FileListAbsolute.txt" />
+    <Content Include=".vscode\settings.json" />
+    <Content Include="github.sln" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

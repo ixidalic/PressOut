@@ -5,3 +5,10 @@ C:\Users\44740\source\repos\Assignment 2 test\Assignment 2 test\obj\Debug\Assign
 C:\Users\44740\source\repos\Assignment 2 test\Assignment 2 test\obj\Debug\Assignment 2 test.csproj.CoreCompileInputs.cache
 C:\Users\44740\source\repos\Assignment 2 test\Assignment 2 test\obj\Debug\Assignment 2 test.exe
 C:\Users\44740\source\repos\Assignment 2 test\Assignment 2 test\obj\Debug\Assignment 2 test.pdb
+D:\home\unknown\repos\Press\github\obj\Debug\Assignment 2 test.exe
+D:\home\unknown\repos\Press\github\obj\Debug\Assignment 2 test.pdb
+D:\home\unknown\repos\Press\github\bin\Debug\Assignment 2 test.exe.config
+D:\home\unknown\repos\Press\github\bin\Debug\Assignment 2 test.exe
+D:\home\unknown\repos\Press\github\bin\Debug\Assignment 2 test.pdb
+D:\home\unknown\repos\Press\github\obj\Debug\Assignment 2 test.csproj.AssemblyReference.cache
+D:\home\unknown\repos\Press\github\obj\Debug\Assignment 2 test.csproj.CoreCompileInputs.cache
