@@ -4,15 +4,11 @@ namespace Assignment_2_test
 {
     internal class Menu
     {
-        private static void Main() // Entry point of the application
+        public static void ShowMenu()
         {
             Console.CursorVisible = false; // Hide the cursor
-            DisplayMenu();
-        }
 
-        private static void DisplayMenu()
-        {
-            string[] menuOptions = { "1. List Items", "2. Edit Items", "3. Stock Count", "4. Exit" }; // Menu option list array
+            string[] menuOptions = { "1.List Items", "2.Edit Items", "3.Stock Count", "4.Exit" }; // Menu option list array
             int selectedOptionIndex = 0;
 
             while (true)
@@ -44,37 +40,24 @@ namespace Assignment_2_test
                 }
                 else if (keyInfo.Key == ConsoleKey.Enter)
                 {
-                    switch (selectedOptionIndex)
+                    if (selectedOptionIndex == 0)
                     {
-                        case 0:
-                            DisplayBikeList();
-                            break;
-                        case 1:
-                            ItemEditMenu();
-                            break;
-                        case 2:
-                            StockCount();
-                            break;
-                        case 3:
-                            return; // Exit program
+                        Program.displayBikeList(); // go to display bike list
+                    }
+                    else if (selectedOptionIndex == 1)
+                    {
+                        Program.itemEditMenu(); // go to edit menu
+                    }
+                    else if (selectedOptionIndex == 2)
+                    {
+                        Program.stockCount(); // go to stock count
+                    }
+                    else if (selectedOptionIndex == 3)
+                    {
+                        break; // Exit program
                     }
                 }
             }
-        }
-
-        private static void DisplayBikeList()
-        {
-            // Implement logic for displaying bike list
-        }
-
-        private static void ItemEditMenu()
-        {
-            // Implement logic for item edit menu
-        }
-
-        private static void StockCount()
-        {
-            // Implement logic for stock count
         }
     }
 }
